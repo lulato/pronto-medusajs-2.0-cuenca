@@ -6,9 +6,9 @@ import { getCollectionsWithProducts } from "@lib/data/collections"
 import { getRegion } from "@lib/data/regions"
 
 export const metadata: Metadata = {
-  title: "Medusa Next.js Starter Template",
+  title: "Prontopack | Ahorra en envíos y productos de USA",
   description:
-    "A performant frontend ecommerce starter template with Next.js 14 and Medusa.",
+    "Con Prontopack accede a productos de tiendas como Sephora, Target y Best Buy a precios bajos y con envíos reducidos a Colombia, Perú y más. Elige tu membresía y empieza a ahorrar.",
 }
 
 export default async function Home({
