@@ -28,10 +28,18 @@ const nextConfig = {
         protocol: "https",
         hostname: process.env.NEXT_PUBLIC_MEDUSA_BACKEND_URL?.replace('https://', ''),
       },
+      { 
+        protocol: "https",
+        hostname: "images.prontopack.co",
+      },
+      { 
+        protocol: "https",
+        hostname: "bucket-production-a235.up.railway.app",
+      },      
       { // Note: can be removed after deleting demo products
         protocol: "https",
         hostname: "medusa-public-images.s3.eu-west-1.amazonaws.com",
-      },
+      },     
       { // Note: can be removed after deleting demo products
         protocol: "https",
         hostname: "medusa-server-testing.s3.amazonaws.com",
