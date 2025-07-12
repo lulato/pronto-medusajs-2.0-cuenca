@@ -1,5 +1,7 @@
-import { Github } from "@medusajs/icons"
+// import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
+import LocalizedClientLink from "@modules/common/components/localized-client-link"
+import Link from "next/link"
 
 const Hero = () => {
   return (
@@ -10,7 +12,7 @@ const Hero = () => {
             level="h1"
             className="text-3xl leading-10 text-ui-fg-base font-normal"
           >
-            Well done! You have successfully deployed your Medusa 2.0 store on Railway!
+            Welcome to ProntoPack Store!
           </Heading>
           <Heading
             level="h2"
@@ -19,6 +21,11 @@ const Hero = () => {
             Need help customizing your store?
           </Heading>
         </span>
+              <LocalizedClientLink href="/store">
+            <Button> 
+              Shop Now
+              </Button>
+              </LocalizedClientLink>
         <a
           href="https://funkyton.com/medusajs-2-0-is-finally-here/"
           target="_blank"
