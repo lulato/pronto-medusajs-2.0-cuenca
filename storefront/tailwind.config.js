@@ -12,6 +12,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ["Satoshi", "sans-serif"],
+      },
       transitionProperty: {
         width: "width margin",
         height: "height",
@@ -60,6 +63,7 @@ module.exports = {
       },
       fontFamily: {
         sans: [
+          "Satoshi",
           "Inter",
           "-apple-system",
           "BlinkMacSystemFont",
