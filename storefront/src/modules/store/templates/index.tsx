@@ -20,8 +20,8 @@ const StoreTemplate = ({
 
   return (
     <div
-      className="flex flex-col small:flex-row small:items-start py-6 content-container"
-      data-testid="category-container"
+    className="flex flex-col small:flex-col small:flex-col py-6 content-container"
+    data-testid="category-container"
     >
       <RefinementList sortBy={sort} />
       <div className="w-full">
