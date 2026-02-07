@@ -20,6 +20,9 @@ importers:
       '@medusajs/dashboard':
         specifier: latest
         version: 2.13.1(@types/react-dom@18.3.7(@types/react@18.3.28))(@types/react@18.3.28)(typescript@5.9.3)
+      '@medusajs/draft-order':
+        specifier: latest
+        version: 2.13.1(kw7u74pgwjlvmqsyx74agk2zlu)
       '@medusajs/framework':
         specifier: latest
         version: 2.13.1(@medusajs/cli@2.13.1(@types/node@20.19.32))(@types/node@20.19.32)(ioredis@5.9.2)(vite@5.4.21(@types/node@20.19.32))(zod@3.25.76)
